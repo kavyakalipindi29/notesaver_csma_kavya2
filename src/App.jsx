@@ -17,7 +17,7 @@ function App() {
 
     try {
 
-      const response = await fetch("http://localhost:5000/notes");
+      const response = await fetch("https://notesaver-csma-vaishu.onrender.com");
 
       const data = await response.json();
 
