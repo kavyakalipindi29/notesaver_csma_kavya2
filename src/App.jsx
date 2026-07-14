@@ -17,7 +17,7 @@ function App() {
 
     try {
 
-      const response = await fetch("https://notesaver-csma-vaishu.onrender.com");
+      const response = await fetch("https://notesaver-csma-kavya1-3wpc.onrender.com");
 
       const data = await response.json();
 
@@ -44,7 +44,7 @@ function App() {
 
     try {
 
-      const response = await fetch("http://localhost:5000/notes", {
+      const response = await fetch("https://notesaver-csma-kavya1-3wpc.onrender.com/notes", {
 
         method: "POST",
 
@@ -112,7 +112,7 @@ function App() {
 
       const response = await fetch(
 
-        `http://localhost:5000/notes/${editId}`,
+        `https://notesaver-csma-kavya1-3wpc.onrender.com/notes/${editId}`,
 
         {
 
@@ -160,7 +160,7 @@ function App() {
 
       const response = await fetch(
 
-        `http://localhost:5000/notes/${id}`,
+        `https://notesaver-csma-kavya1-3wpc.onrender.com/notes/${id}`,
 
         {
 
