@@ -17,7 +17,7 @@ function App() {
 
     try {
 
-      const response = await fetch("https://notesaver-csma-kavya1-3wpc.onrender.com");
+      const response = await fetch("https://notesaver-csma-kavya1-3wpc.onrender.com/notes");
 
       const data = await response.json();
 
